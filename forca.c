@@ -6,23 +6,17 @@ int main() {
 	sprintf(palavra, "MELANCIA");
 
 	int acertou = 0;
-	int enforcou = 0;
+	int enforcou = 1;
 
 	do {
+        for (int i = 0; i < strlen(palavra); i++) {
+            printf("_ ");
+        }
+
+        printf("\n");
+
 		char chute;
 		scanf(" %c", &chute);
-
-		for (int i = 0; i < strlen(palavra); i++) {
-			if (palavra[i] == chute) {
-				printf("A posição %d tem essa letra!\n", i);
-				acertou = 1;
-			}
-		}
-
-		if (!acertou) {
-			enforcou = 1;
-			printf("Você errou!\n");
-		}
 
 	} while (!acertou && !enforcou);
 
