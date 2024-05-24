@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1716563608 source:c:\users\almir.gabriel\documents\c\desafio\funcoes.cpp
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"cabecalho.h"
+
+1716563616 c:\users\almir.gabriel\documents\c\desafio\cabecalho.h
+
